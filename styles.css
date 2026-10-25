@@ -301,6 +301,7 @@ h1 span {
   background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(233,238,230,0.7));
   border: 1px solid rgba(71, 88, 71, 0.10);
   box-shadow: 0 30px 70px rgba(35, 46, 38, 0.08);
+  overflow: visible;
 }
 
 .photo-card {
@@ -349,6 +350,7 @@ h1 span {
   font-weight: 700;
   box-shadow: 0 14px 28px rgba(55, 69, 58, 0.10);
   backdrop-filter: blur(10px);
+  z-index: 3;
 }
 
 .dot {
@@ -583,6 +585,146 @@ h1 span {
   height: 170px;
 }
 
+.contact-panel {
+  padding: 26px 24px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.42), rgba(236,240,232,0.82));
+  border: 1px solid rgba(61, 74, 65, 0.12);
+  box-shadow: 0 18px 38px rgba(40, 52, 43, 0.08);
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 14px 14px 12px;
+  border-radius: 18px;
+  border: 1px solid rgba(61, 74, 65, 0.08);
+  background: rgba(255, 255, 255, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 22px rgba(49, 60, 51, 0.07);
+}
+
+.contact-icon {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(127, 144, 117, 0.18), rgba(127, 144, 117, 0.04));
+  border: 1px solid rgba(77, 95, 77, 0.1);
+}
+
+.contact-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--sage-deep);
+}
+
+.contact-copy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.contact-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--sage-deep);
+}
+
+.contact-list a {
+  display: inline-block;
+  color: var(--forest);
+  font-weight: 600;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.contact-list a:hover {
+  color: var(--sage-deep);
+}
+
+.research-layout {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.research-col {
+  display: grid;
+  gap: 20px;
+}
+
+.research-cards {
+  display: grid;
+  gap: 22px;
+}
+
+.research-card,
+.meta-box {
+  padding: 22px 20px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(61, 74, 65, 0.08);
+}
+
+.research-card {
+  display: grid;
+  gap: 12px;
+}
+
+.card-tag {
+  margin-bottom: 0;
+}
+
+.meta-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-list span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(127, 144, 117, 0.08);
+  border: 1px solid rgba(77, 95, 77, 0.08);
+  color: var(--forest);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.research-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
 @media (max-width: 900px) {
   .topbar {
     width: min(92vw, 900px);
@@ -629,6 +771,14 @@ h1 span {
   }
 
   .photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .research-meta {
     grid-template-columns: 1fr;
   }
 }
