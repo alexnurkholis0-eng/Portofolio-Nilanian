@@ -1,0 +1,16 @@
+<svg width="800" height="560" viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="#E8E2D9"/>
+  <rect x="52" y="52" width="696" height="456" rx="28" fill="#F8F4EE"/>
+  <rect x="86" y="86" width="628" height="182" rx="20" fill="#D8E2CB"/>
+  <rect x="106" y="120" width="260" height="120" rx="18" fill="#B9C7A8"/>
+  <rect x="392" y="120" width="292" height="120" rx="18" fill="#F0E9DE"/>
+  <rect x="86" y="300" width="628" height="154" rx="20" fill="#C9D7B9"/>
+  <path d="M130 292L240 190L318 280L430 176L520 252L690 138" stroke="#546B52" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="130" cy="292" r="10" fill="#546B52"/>
+  <circle cx="240" cy="190" r="10" fill="#546B52"/>
+  <circle cx="318" cy="280" r="10" fill="#546B52"/>
+  <circle cx="430" cy="176" r="10" fill="#546B52"/>
+  <circle cx="520" cy="252" r="10" fill="#546B52"/>
+  <circle cx="690" cy="138" r="10" fill="#546B52"/>
+  <text x="400" y="488" text-anchor="middle" fill="#4A5D4A" font-family="Arial, sans-serif" font-size="30" font-weight="700">FIELD COORDINATION</text>
+</svg>

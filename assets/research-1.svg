@@ -1,0 +1,14 @@
+<svg width="800" height="560" viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="#E7E1D8"/>
+  <rect x="48" y="52" width="704" height="456" rx="28" fill="#F6F1EA"/>
+  <rect x="94" y="100" width="612" height="160" rx="20" fill="#DDE9D4"/>
+  <rect x="118" y="134" width="220" height="96" rx="14" fill="#B7C7A8"/>
+  <rect x="370" y="134" width="300" height="96" rx="14" fill="#F0E8DC"/>
+  <rect x="94" y="300" width="612" height="150" rx="20" fill="#C9D8B9"/>
+  <path d="M128 360C180 332 220 324 280 338C336 352 364 380 430 366C494 352 538 330 620 336" stroke="#4A5F4B" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <circle cx="128" cy="360" r="10" fill="#4A5F4B"/>
+  <circle cx="280" cy="338" r="10" fill="#4A5F4B"/>
+  <circle cx="430" cy="366" r="10" fill="#4A5F4B"/>
+  <circle cx="620" cy="336" r="10" fill="#4A5F4B"/>
+  <text x="400" y="488" text-anchor="middle" fill="#485E4B" font-family="Arial, sans-serif" font-size="30" font-weight="700">UNDERGRADUATE RESEARCH</text>
+</svg>

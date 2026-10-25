@@ -1,0 +1,11 @@
+<svg width="800" height="560" viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="#E7E3D7"/>
+  <rect x="48" y="54" width="704" height="452" rx="28" fill="#F5F1EA"/>
+  <rect x="88" y="116" width="220" height="160" rx="18" fill="#C6D6B8"/>
+  <rect x="332" y="116" width="380" height="120" rx="18" fill="#DDE7D4"/>
+  <rect x="332" y="264" width="380" height="160" rx="18" fill="#B9C7A8"/>
+  <rect x="112" y="332" width="170" height="110" rx="18" fill="#F0E7D8"/>
+  <circle cx="184" cy="180" r="54" fill="#8AA17A"/>
+  <path d="M142 290C152 246 176 220 214 220C252 220 276 246 286 290V318H142V290Z" fill="#5B7058"/>
+  <text x="400" y="492" text-anchor="middle" fill="#4A5D4A" font-family="Arial, sans-serif" font-size="32" font-weight="700">PERTANIAN PRAKTIS</text>
+</svg>

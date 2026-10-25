@@ -1,0 +1,14 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" fill="#EAE4DB"/>
+  <rect x="80" y="80" width="640" height="840" rx="36" fill="#F7F2EA"/>
+  <circle cx="400" cy="370" r="170" fill="#B7C5AE"/>
+  <path d="M260 760C280 620 330 560 400 560C470 560 520 620 540 760H260Z" fill="#7A8F72"/>
+  <path d="M285 340C285 270 336 220 400 220C464 220 515 270 515 340V350C515 420 464 470 400 470C336 470 285 420 285 350V340Z" fill="#D9C4AA"/>
+  <path d="M302 350C302 278 350 228 400 228C450 228 498 278 498 350V354C498 418 450 468 400 468C350 468 302 418 302 354V350Z" fill="#D9C4AA"/>
+  <path d="M328 332C338 275 370 247 400 247C430 247 462 275 472 332C464 311 435 292 400 292C365 292 336 311 328 332Z" fill="#4C4A3A"/>
+  <circle cx="360" cy="370" r="12" fill="#2E342E"/>
+  <circle cx="440" cy="370" r="12" fill="#2E342E"/>
+  <path d="M360 430C385 447 415 447 440 430" stroke="#7A5A48" stroke-width="12" stroke-linecap="round"/>
+  <rect x="170" y="830" width="460" height="26" rx="13" fill="#D9DFD0"/>
+  <text x="400" y="795" text-anchor="middle" fill="#4D5F4D" font-family="Arial, sans-serif" font-size="34" font-weight="700">YOUR PHOTO</text>
+</svg>
